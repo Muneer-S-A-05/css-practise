@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header{
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.page1{
+    min-height: 50vh;
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.herotext{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+button{
+    padding: 7px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.page1 img{
+    width: 500px;
+    height: 225px;
+    min-width: 200px;
+    min-height: 90px;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.page2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 50vh;
+    gap: 30px;
+    padding: 30px;
+}
+
+.box-container{
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info{
+    width: 180px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.info img{
+    width: 180px;
+    border-radius: 15px;
+    border: 1px solid #3882f6;
+}
+
+.info p{
+    margin: 0;
+    color: #1f2937;
+}
+
+.page3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    min-height: 40vh;
+    padding: 5vh;
+}
+
+.page3 p{
+    width: 60vw;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-style: italic;
+    margin: 20px;
+}
+
+.page3 div{
+    width: 45vw;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.page4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.card{
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 60vw;
+    padding: 40px 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.card button{
+    padding: 8px;
+    margin: 10px ;
+    border: 1px solid #f9faf8;
+}
+
+.card p,h3{
+    margin: 0;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 12px;
+    font-weight: 100;
+    height: 7vh;
+}

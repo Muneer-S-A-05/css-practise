@@ -54,10 +54,20 @@ button{
     padding: 7px;
     width: 100px;
     border-radius: 5px;
-    border: none;
+    border: 0;
     background-color: #3882f6;
     color: #f9faf8;
     font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+button:hover {
+    background-color: #2563eb; /* Slightly darker blue */
+}
+
+button:active {
+    transform: scale(0.95); /* Shrinks slightly like a real springy button */
 }
 
 .page1 img{
